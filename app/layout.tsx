@@ -19,7 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.className}  antialiased`}>{children}</body>
+      <body
+        className={`${roboto.className}  antialiased grid  justify-center items-center md:min-h-[100vh]`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

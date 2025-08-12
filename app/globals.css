@@ -25,40 +25,43 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--cust-blue-700);
   color: var(--foreground);
   font-family: Roboto, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.preset-1 {
+@utility preset-1 {
   font-size: 56px;
   line-height: 100%;
   letter-spacing: 0px;
   font-weight: 700;
 }
 
-.preset-1-mobile {
+@utility preset-1-mobile {
   font-size: 40px;
   line-height: 100%;
   letter-spacing: 0px;
   font-weight: 700;
 }
 
-.preset-2-bold {
+@utility preset-2-bold {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0px;
   font-weight: 700;
 }
 
-.preset-2-reg {
+@utility preset-2-reg {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0px;
   font-weight: 400;
 }
 
-.preset-3-bold {
+@utility preset-3-bold {
   font-size: 12px;
   line-height: 150%;
   letter-spacing: 0px;
