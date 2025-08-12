@@ -64,10 +64,18 @@ export default function Home() {
               And much more!
             </li>
           </ul>
-          <form action="">
-            <label htmlFor="email">Email address</label>
-            <input type="email" placeholder="email@company.com" />
-            <button>Subscribe to monthly newsletter</button>
+          <form action="" className="flex flex-col gap-2">
+            <label htmlFor="email" className="preset-3-bold">
+              Email address
+            </label>
+            <input
+              type="email"
+              placeholder="email@company.com"
+              className="border-1 py-4 px-6 border-[var(--cust-grey)] rounded-lg mb-6"
+            />
+            <button className="py-4 w-full text-white bg-[var(--cust-blue-800)] rounded-lg">
+              Subscribe to monthly newsletter
+            </button>
           </form>
         </main>
       </div>
