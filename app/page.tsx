@@ -115,12 +115,12 @@ export default function Home() {
                 id="email-input"
                 type="email"
                 placeholder="email@company.com"
-                className={`border py-4 px-6 rounded-lg mb-6 outline-none ${
+                className={`border py-4 px-6 rounded-lg mb-6 outline-none focus:border-[var(--cust-blue-800)]  ${
                   isTouched
                     ? isValid
                       ? 'border-lime-400'
                       : 'border-[var(--cust-red)] text-[var(--cust-red)] bg-[var(--cust-red-op)]'
-                    : 'border-[var(--cust-grey)]'
+                    : 'border-[var(--cust-grey)] '
                 }`}
                 required
               />
